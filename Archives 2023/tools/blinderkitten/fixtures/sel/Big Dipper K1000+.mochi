@@ -1,0 +1,354 @@
+{
+  "interfaces": null,
+  "channelFamilies": null,
+  "fixtureType": [
+    {
+      "parameters": [
+        {
+          "value": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "controlAddress": "/layoutColor"
+        }
+      ],
+      "niceName": "Big Dipper K1000+",
+      "editorIsCollapsed": true,
+      "containers": {
+        "channels": {
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": "/control/channelTypes/ctrl",
+                  "controlAddress": "/channelType"
+                },
+                {
+                  "value": "Snap",
+                  "controlAddress": "/fadeOrSnap"
+                },
+                {
+                  "value": 1,
+                  "hexMode": false,
+                  "controlAddress": "/dmxChannel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/virtualMaster"
+                }
+              ],
+              "niceName": "Channel 1",
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/laser/channelTypes/media",
+                  "controlAddress": "/channelType"
+                },
+                {
+                  "value": "Snap",
+                  "controlAddress": "/fadeOrSnap"
+                },
+                {
+                  "value": 2,
+                  "hexMode": false,
+                  "controlAddress": "/dmxChannel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/virtualMaster"
+                }
+              ],
+              "niceName": "Channel 2",
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/dimmer/channelTypes/strobe",
+                  "controlAddress": "/channelType"
+                },
+                {
+                  "value": "Snap",
+                  "controlAddress": "/fadeOrSnap"
+                },
+                {
+                  "value": 3,
+                  "hexMode": false,
+                  "controlAddress": "/dmxChannel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/virtualMaster"
+                }
+              ],
+              "niceName": "Channel 3",
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/laser/channelTypes/xPos",
+                  "controlAddress": "/channelType"
+                },
+                {
+                  "value": "Snap",
+                  "controlAddress": "/fadeOrSnap"
+                },
+                {
+                  "value": 4,
+                  "hexMode": false,
+                  "controlAddress": "/dmxChannel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/virtualMaster"
+                }
+              ],
+              "niceName": "Channel 4",
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/laser/channelTypes/yPos",
+                  "controlAddress": "/channelType"
+                },
+                {
+                  "value": "Snap",
+                  "controlAddress": "/fadeOrSnap"
+                },
+                {
+                  "value": 5,
+                  "hexMode": false,
+                  "controlAddress": "/dmxChannel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/virtualMaster"
+                }
+              ],
+              "niceName": "Channel 5",
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/focus/channelTypes/zoom",
+                  "controlAddress": "/channelType"
+                },
+                {
+                  "value": "Snap",
+                  "controlAddress": "/fadeOrSnap"
+                },
+                {
+                  "value": 6,
+                  "hexMode": false,
+                  "controlAddress": "/dmxChannel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/virtualMaster"
+                }
+              ],
+              "niceName": "Channel 6",
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/laser/channelTypes/xScale",
+                  "controlAddress": "/channelType"
+                },
+                {
+                  "value": "Snap",
+                  "controlAddress": "/fadeOrSnap"
+                },
+                {
+                  "value": 7,
+                  "hexMode": false,
+                  "controlAddress": "/dmxChannel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/virtualMaster"
+                }
+              ],
+              "niceName": "Channel 7",
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/laser/channelTypes/yScale",
+                  "controlAddress": "/channelType"
+                },
+                {
+                  "value": "Snap",
+                  "controlAddress": "/fadeOrSnap"
+                },
+                {
+                  "value": 8,
+                  "hexMode": false,
+                  "controlAddress": "/dmxChannel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/virtualMaster"
+                }
+              ],
+              "niceName": "Channel 8",
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/laser/channelTypes/rotation",
+                  "controlAddress": "/channelType"
+                },
+                {
+                  "value": "Snap",
+                  "controlAddress": "/fadeOrSnap"
+                },
+                {
+                  "value": 9,
+                  "hexMode": false,
+                  "controlAddress": "/dmxChannel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/virtualMaster"
+                }
+              ],
+              "niceName": "Channel 9",
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/laser/channelTypes/scanSpeed",
+                  "controlAddress": "/channelType"
+                },
+                {
+                  "value": "Snap",
+                  "controlAddress": "/fadeOrSnap"
+                },
+                {
+                  "value": 10,
+                  "hexMode": false,
+                  "controlAddress": "/dmxChannel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/virtualMaster"
+                }
+              ],
+              "niceName": "Channel 10",
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/laser/channelTypes/xyPhaseShifting",
+                  "controlAddress": "/channelType"
+                },
+                {
+                  "value": "Snap",
+                  "controlAddress": "/fadeOrSnap"
+                },
+                {
+                  "value": 11,
+                  "hexMode": false,
+                  "controlAddress": "/dmxChannel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/virtualMaster"
+                }
+              ],
+              "niceName": "Channel 11",
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "",
+                  "controlAddress": "/channelType"
+                },
+                {
+                  "value": "Snap",
+                  "controlAddress": "/fadeOrSnap"
+                },
+                {
+                  "value": 12,
+                  "hexMode": false,
+                  "controlAddress": "/dmxChannel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/virtualMaster"
+                }
+              ],
+              "niceName": "Channel 12",
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/laser/channelTypes/drawing",
+                  "controlAddress": "/channelType"
+                },
+                {
+                  "value": "Snap",
+                  "controlAddress": "/fadeOrSnap"
+                },
+                {
+                  "value": 13,
+                  "hexMode": false,
+                  "controlAddress": "/dmxChannel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/virtualMaster"
+                }
+              ],
+              "niceName": "Channel 13",
+              "editorIsCollapsed": true,
+              "type": "BaseItem"
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "virtualChannels": {
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        }
+      },
+      "type": "FixtureType"
+    }
+  ],
+  "fixture": null,
+  "group": null,
+  "preset": null,
+  "command": null,
+  "cuelist": null,
+  "programmer": null,
+  "curvePreset": null,
+  "timingPreset": null,
+  "carousel": null,
+  "mapper": null,
+  "multiplicators": null,
+  "effect": null,
+  "virtualButton": null,
+  "virtualFaderCol": null
+}

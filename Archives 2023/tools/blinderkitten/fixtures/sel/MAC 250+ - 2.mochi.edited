@@ -1,0 +1,276 @@
+{
+    "channelFamilies": [
+        {
+            "niceName": "Dimmer",
+            "containers": {
+                "channelTypes": {
+                    "items": [
+                        {
+                            "niceName": "Shutter",
+                            "type": "BaseItem",
+                            "parameters": [
+                                { "value": "Latest Takes Precedence", "controlAddress": "/channelMode" },
+                                { "value": false, "controlAddress": "/reactToGrandMaster" }
+                            ]
+                        },
+                        {
+                            "niceName": "Intensity",
+                            "type": "BaseItem",
+                            "parameters": [
+                                { "value": "Highest Takes Precedence", "controlAddress": "/channelMode" },
+                                { "value": true, "controlAddress": "/reactToGrandMaster" }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "type": "ChannelFamily"
+        },
+        {
+            "niceName": "Color",
+            "containers": {
+                "channelTypes": {
+                    "items": [
+                        {
+                            "niceName": "Color",
+                            "type": "BaseItem",
+                            "parameters": [
+                                { "value": "Latest Takes Precedence", "controlAddress": "/channelMode" },
+                                { "value": false, "controlAddress": "/reactToGrandMaster" }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "type": "ChannelFamily"
+        },
+        {
+            "niceName": "Gobo",
+            "containers": {
+                "channelTypes": {
+                    "items": [
+                        {
+                            "niceName": "Gobo",
+                            "type": "BaseItem",
+                            "parameters": [
+                                { "value": "Latest Takes Precedence", "controlAddress": "/channelMode" },
+                                { "value": false, "controlAddress": "/reactToGrandMaster" }
+                            ]
+                        },
+                        {
+                            "niceName": "Gobo Rot",
+                            "type": "BaseItem",
+                            "parameters": [
+                                { "value": "Latest Takes Precedence", "controlAddress": "/channelMode" },
+                                { "value": false, "controlAddress": "/reactToGrandMaster" }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "type": "ChannelFamily"
+        },
+        {
+            "niceName": "Focus",
+            "containers": {
+                "channelTypes": {
+                    "items": [
+                        {
+                            "niceName": "Focus",
+                            "type": "BaseItem",
+                            "parameters": [
+                                { "value": "Latest Takes Precedence", "controlAddress": "/channelMode" },
+                                { "value": false, "controlAddress": "/reactToGrandMaster" }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "type": "ChannelFamily"
+        },
+        {
+            "niceName": "Beam",
+            "containers": {
+                "channelTypes": {
+                    "items": [
+                        {
+                            "niceName": "Prism",
+                            "type": "BaseItem",
+                            "parameters": [
+                                { "value": "Latest Takes Precedence", "controlAddress": "/channelMode" },
+                                { "value": false, "controlAddress": "/reactToGrandMaster" }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "type": "ChannelFamily"
+        },
+        {
+            "niceName": "Position",
+            "containers": {
+                "channelTypes": {
+                    "items": [
+                        {
+                            "niceName": "Pan",
+                            "type": "BaseItem",
+                            "parameters": [
+                                { "value": "Latest Takes Precedence", "controlAddress": "/channelMode" },
+                                { "value": false, "controlAddress": "/reactToGrandMaster" }
+                            ]
+                        },
+                        {
+                            "niceName": "Tilt",
+                            "type": "BaseItem",
+                            "parameters": [
+                                { "value": "Latest Takes Precedence", "controlAddress": "/channelMode" },
+                                { "value": false, "controlAddress": "/reactToGrandMaster" }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "type": "ChannelFamily"
+        }
+    ],
+    "fixtureType": [
+        {
+            "niceName": "MAC 250+",
+            "containers": {
+                "channels": {
+                    "items": [
+                        {
+                            "parameters": [
+                                { "value": "/dimmer/channelTypes/shutter", "controlAddress": "/channelType" },
+                                { "value": 0, "controlAddress": "/highlightValue" },
+                                { "value": "Fade", "controlAddress": "/fadeOrSnap" },
+                                { "value": 1, "hexMode": false, "controlAddress": "/dmxChannel" },
+                                { "value": "8bits", "controlAddress": "/resolution" },
+                                { "value": false, "controlAddress": "/killedBySWOP" },
+                                { "value": 0, "hexMode": false, "controlAddress": "/subFixtureID" }
+                            ],
+                            "containers": {
+                                "definedRanges": {
+                                    "items": [
+                                        {
+                                            "parameters": [
+                                                { "value": 0, "controlAdress": "/definedRangeLowerValue"},
+                                                { "value": 0.07, "controlAdress": "/definedRangeUpperValue"}
+                                            ],
+                                            "niceName": "Shutter closed",
+                                            "type": "BaseItem"
+                                        },
+                            "niceName": "Channel",
+                            "type": "BaseItem"
+                        },
+                        {
+                            "parameters": [
+                                { "value": "/dimmer/channelTypes/intensity", "controlAddress": "/channelType" },
+                                { "value": 1, "controlAddress": "/highlightValue" },
+                                { "value": "Fade", "controlAddress": "/fadeOrSnap" },
+                                { "value": 1, "hexMode": false, "controlAddress": "/dmxChannel" },
+                                { "value": "8bits", "controlAddress": "/resolution" },
+                                { "value": true, "controlAddress": "/killedBySWOP" },
+                                { "value": 0, "hexMode": false, "controlAddress": "/subFixtureID" }
+                            ],
+                            "niceName": "Channel",
+                            "type": "BaseItem"
+                        },
+                        {
+                            "parameters": [
+                                { "value": "/color/channelTypes/color", "controlAddress": "/channelType" },
+                                { "value": 0, "controlAddress": "/highlightValue" },
+                                { "value": "Fade", "controlAddress": "/fadeOrSnap" },
+                                { "value": 1, "hexMode": false, "controlAddress": "/dmxChannel" },
+                                { "value": "8bits", "controlAddress": "/resolution" },
+                                { "value": false, "controlAddress": "/killedBySWOP" },
+                                { "value": 0, "hexMode": false, "controlAddress": "/subFixtureID" }
+                            ],
+                            "niceName": "Channel",
+                            "type": "BaseItem"
+                        },
+                        {
+                            "parameters": [
+                                { "value": "/gobo/channelTypes/gobo", "controlAddress": "/channelType" },
+                                { "value": 0, "controlAddress": "/highlightValue" },
+                                { "value": "Fade", "controlAddress": "/fadeOrSnap" },
+                                { "value": 1, "hexMode": false, "controlAddress": "/dmxChannel" },
+                                { "value": "8bits", "controlAddress": "/resolution" },
+                                { "value": false, "controlAddress": "/killedBySWOP" },
+                                { "value": 0, "hexMode": false, "controlAddress": "/subFixtureID" }
+                            ],
+                            "niceName": "Channel",
+                            "type": "BaseItem"
+                        },
+                        {
+                            "parameters": [
+                                { "value": "/gobo/channelTypes/goboRot", "controlAddress": "/channelType" },
+                                { "value": 0, "controlAddress": "/highlightValue" },
+                                { "value": "Fade", "controlAddress": "/fadeOrSnap" },
+                                { "value": 1, "hexMode": false, "controlAddress": "/dmxChannel" },
+                                { "value": "8bits", "controlAddress": "/resolution" },
+                                { "value": false, "controlAddress": "/killedBySWOP" },
+                                { "value": 0, "hexMode": false, "controlAddress": "/subFixtureID" }
+                            ],
+                            "niceName": "Channel",
+                            "type": "BaseItem"
+                        },
+                        {
+                            "parameters": [
+                                { "value": "/focus/channelTypes/focus", "controlAddress": "/channelType" },
+                                { "value": 0, "controlAddress": "/highlightValue" },
+                                { "value": "Fade", "controlAddress": "/fadeOrSnap" },
+                                { "value": 1, "hexMode": false, "controlAddress": "/dmxChannel" },
+                                { "value": "8bits", "controlAddress": "/resolution" },
+                                { "value": false, "controlAddress": "/killedBySWOP" },
+                                { "value": 0, "hexMode": false, "controlAddress": "/subFixtureID" }
+                            ],
+                            "niceName": "Channel",
+                            "type": "BaseItem"
+                        },
+                        {
+                            "parameters": [
+                                { "value": "/beam/channelTypes/prism", "controlAddress": "/channelType" },
+                                { "value": 0, "controlAddress": "/highlightValue" },
+                                { "value": "Fade", "controlAddress": "/fadeOrSnap" },
+                                { "value": 1, "hexMode": false, "controlAddress": "/dmxChannel" },
+                                { "value": "8bits", "controlAddress": "/resolution" },
+                                { "value": false, "controlAddress": "/killedBySWOP" },
+                                { "value": 0, "hexMode": false, "controlAddress": "/subFixtureID" }
+                            ],
+                            "niceName": "Channel",
+                            "type": "BaseItem"
+                        },
+                        {
+                            "parameters": [
+                                { "value": "/position/channelTypes/pan", "controlAddress": "/channelType" },
+                                { "value": 0, "controlAddress": "/highlightValue" },
+                                { "value": "Fade", "controlAddress": "/fadeOrSnap" },
+                                { "value": 1, "hexMode": false, "controlAddress": "/dmxChannel" },
+                                { "value": "16bits", "controlAddress": "/resolution" },
+                                { "value": false, "controlAddress": "/killedBySWOP" },
+                                { "value": 0, "hexMode": false, "controlAddress": "/subFixtureID" }
+                            ],
+                            "niceName": "Channel",
+                            "type": "BaseItem"
+                        },
+                        {
+                            "parameters": [
+                                { "value": "/position/channelTypes/tilt", "controlAddress": "/channelType" },
+                                { "value": 0, "controlAddress": "/highlightValue" },
+                                { "value": "Fade", "controlAddress": "/fadeOrSnap" },
+                                { "value": 1, "hexMode": false, "controlAddress": "/dmxChannel" },
+                                { "value": "16bits", "controlAddress": "/resolution" },
+                                { "value": false, "controlAddress": "/killedBySWOP" },
+                                { "value": 0, "hexMode": false, "controlAddress": "/subFixtureID" }
+                            ],
+                            "niceName": "Channel",
+                            "type": "BaseItem"
+                        }
+                    ]
+                }
+            },
+            "type": "FixtureType"
+        }
+    ]
+}

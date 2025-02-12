@@ -1,0 +1,55 @@
+[Project]
+Version=1
+
+[Preset.0]
+Name=Feedback
+Active=1
+Name0=Sequence 1
+Incoming0=Pres080000
+Outgoing0=MID1900033
+Options0=Actv01Stop00OutO00
+Name1=All White
+Incoming1=Pres080000
+Outgoing1=MID1904033
+Options1=Actv01Stop00OutO00
+Name2=All Pink
+Incoming2=Pres080000
+Outgoing2=MID1904133
+Options2=Actv01Stop00OutO00
+Name3=All Red
+Incoming3=Pres080000
+Outgoing3=MID1904233
+Options3=Actv01Stop00OutO00
+Name4=All Amber
+Incoming4=Pres080000
+Outgoing4=MID1904333
+Options4=Actv01Stop00OutO00
+Name5=All Green
+Incoming5=Pres080000
+Outgoing5=MID1904433
+Options5=Actv01Stop00OutO00
+Name6=All Cyan
+Incoming6=Pres080000
+Outgoing6=MID1904533
+Options6=Actv01Stop00OutO00
+Name7=All Blue
+Incoming7=Pres080000
+Outgoing7=MID1904633
+Options7=Actv01Stop00OutO00
+Name8=All Magenta
+Incoming8=Pres080000
+Outgoing8=MID1904733
+Options8=Actv01Stop00OutO00
+
+[Preset.1]
+Name=Commands
+Active=1
+Name0=Reset
+Incoming0=MID1B06F7F
+Outgoing0=Pres060008Feedback
+Options0=Actv01Stop00OutO00
+Name1=Set
+Incoming1=MID1B06F00
+Outgoing1=Pres040008Feedback
+Options1=Actv01Stop00OutO00
+

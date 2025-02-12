@@ -1,0 +1,72 @@
+{
+  "interfaces": null,
+  "channelFamilies": [
+    {
+      "niceName": "Laser",
+      "editorIsCollapsed": true,
+      "containers": {
+        "channelTypes": {
+          "items": [
+            {
+              "niceName": "Media",
+              "type": "BaseItem"
+            },
+            {
+              "niceName": "xPos",
+              "type": "BaseItem"
+            },
+            {
+              "niceName": "yPos",
+              "type": "BaseItem"
+            },
+            {
+              "niceName": "xScale",
+              "type": "BaseItem"
+            },
+            {
+              "niceName": "yScale",
+              "type": "BaseItem"
+            },
+            {
+              "niceName": "Rotation",
+              "type": "BaseItem"
+            },
+            {
+              "niceName": "Scan Speed",
+              "type": "BaseItem"
+            },
+            {
+              "niceName": "XY Phase Shifting",
+              "type": "BaseItem"
+            },
+            {
+              "niceName": "Drawing",
+              "type": "BaseItem"
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        }
+      },
+      "type": "ChannelFamily"
+    }
+  ],
+  "fixtureType": null,
+  "fixture": null,
+  "group": null,
+  "preset": null,
+  "command": null,
+  "cuelist": null,
+  "programmer": null,
+  "curvePreset": null,
+  "timingPreset": null,
+  "carousel": null,
+  "mapper": null,
+  "multiplicators": null,
+  "effect": null,
+  "virtualButton": null,
+  "virtualFaderCol": null
+}
